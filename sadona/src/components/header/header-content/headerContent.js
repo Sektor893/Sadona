@@ -19,6 +19,15 @@ const headerContent = () => {
             <span className="vertical-line"></span>
           </div>
         </div>
+        <div className="header-bar">
+          <div>
+            <p className="sub-header">We Are Reopening!</p>
+            <p className="sub-header-p">
+              Check out details about new safety guidelines
+            </p>
+            <button>Safety Guidelines</button>
+          </div>
+        </div>
       </div>
     </>
   );

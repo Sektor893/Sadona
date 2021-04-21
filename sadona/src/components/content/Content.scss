@@ -1,0 +1,438 @@
+.main-header {
+  position: relative;
+  top: 186px;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  .main-wrap {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 940px;
+    padding-top: 80px;
+    hr {
+      border: 1px solid #483224;
+      width: 110px;
+    }
+    h1 {
+      font-size: 30px;
+      text-align: center;
+      font-family: "Prata", serif;
+      font-weight: 300;
+      color: #803e38;
+    }
+    p {
+      text-align: center;
+      color: #483224;
+      position: relative;
+      bottom: 25px;
+    }
+    button {
+      width: 105px;
+      height: 41px;
+      border: 1px solid #483224;
+      background-color: #483224;
+      color: white;
+      align-self: center;
+      margin-bottom: 15px;
+      position: relative;
+      bottom: 20px;
+    }
+  }
+}
+
+//SALON SERVICES
+.salon-services {
+  padding-left: 120px;
+  position: relative;
+  top: 250px;
+  display: flex;
+}
+
+.salon-icon {
+  height: 60px;
+  display: flex;
+  position: relative;
+  left: 275px;
+  top: 65px;
+
+  span {
+    font-size: 25px;
+    color: #803e38;
+    font-family: "Cookie", cursive;
+    padding-left: 15px;
+    display: flex;
+    align-self: center;
+  }
+}
+
+.salon-heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 358px;
+  h3 {
+    font-size: 50px;
+    font-family: "Prata", serif;
+    font-weight: 300;
+    color: #483224;
+    position: relative;
+    left: 165px;
+    top: 50px;
+  }
+  p {
+    color: #483224;
+    font-size: 16px;
+    line-height: 25px;
+    position: relative;
+    left: 165px;
+  }
+  button {
+    width: 120px;
+    height: 41px;
+    background-color: #483224;
+    border: 1px solid #483224;
+    color: white;
+    position: relative;
+    left: 165px;
+    top: 22px;
+  }
+}
+
+.salon-img {
+  background-image: url(../../assets/girl.png);
+  background-position: top;
+  width: 939px;
+  height: 357px;
+  border-radius: 200px 0 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  img {
+    width: 455px;
+    height: 207px;
+    border-radius: 60px 0 60px 0;
+    position: relative;
+    top: 115px;
+  }
+}
+
+.arrow-wrap {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  position: relative;
+  top: 400px;
+  right: 600px;
+
+  img {
+    width: 6px;
+    height: 11px;
+    color: #a4554e;
+  }
+  span {
+    font-size: 12px;
+    color: #a4554e;
+    padding-left: 10px;
+  }
+}
+
+//Salon Service MediaQ
+@media (max-width: 1400px) {
+  .salon-icon {
+    display: none;
+  }
+  .salon-heading {
+    position: relative;
+    right: 230px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .salon-heading {
+    position: relative;
+    right: 230px;
+  }
+}
+
+//Spa Services
+
+.spa-services-wrap {
+}
+
+.spa-services {
+  margin-top: 430px;
+  background-color: #803e38;
+  height: 464px;
+  width: 878px;
+  border-radius: 0 180px 0 0;
+  .spa-heading {
+    width: 455px;
+    display: flex;
+    flex-direction: column;
+
+    .candle-icon {
+      position: relative;
+      left: 400px;
+      top: 90px;
+    }
+    img {
+      height: 36px;
+    }
+    span {
+      font-size: 28px;
+      font-family: "Cookie", cursive;
+      color: #e7d1a7;
+      margin-left: 20px;
+    }
+    h3 {
+      font-size: 50px;
+      text-align: left;
+      font-family: "Prata", serif;
+      font-weight: 300;
+      color: white;
+      position: relative;
+      left: 400px;
+      top: 40px;
+    }
+    p {
+      font-size: 16px;
+      color: white;
+      line-height: 25px;
+      position: relative;
+      left: 400px;
+    }
+    button {
+      width: 120px;
+      height: 41px;
+      border: 1px solid #d1c1a5;
+      background-color: #e7d1a7;
+      font-size: 16px;
+      position: relative;
+      left: 400px;
+      top: 20px;
+    }
+  }
+
+  .image {
+    background-image: url(../../assets/masaza.png);
+    background-position: center;
+    z-index: -1;
+    height: 464px;
+    width: 1200px;
+    position: relative;
+    left: 700px;
+    bottom: 350px;
+  }
+  .arrow {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    top: 60px;
+    img {
+      width: 6px;
+      height: 11px;
+      color: #e7d1a7;
+    }
+    span {
+      font-size: 12px;
+      color: #e7d1a7;
+      font-family: "Barlow", sans-serif;
+    }
+  }
+}
+
+//Bridal Services
+
+.bridal-services {
+  position: relative;
+  left: 400px;
+  margin-top: 80px;
+  background-image: url(../../assets/bride.png);
+  background-position: center;
+  width: 1134px;
+  height: 516px;
+  border-radius: 0 150px 0 150px;
+  .bridal-logo {
+    position: relative;
+    width: 100px;
+    left: 725px;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    span {
+      font-size: 25px;
+      color: #803e38;
+      font-family: "Cookie", cursive;
+    }
+  }
+}
+
+.bridal-header-wrap {
+  margin-left: 680px;
+  width: 500px;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.39);
+  h3 {
+    font-size: 50px;
+    text-align: left;
+    font-family: "Prata", serif;
+    font-weight: 300;
+    position: relative;
+    top: 120px;
+    left: 40px;
+  }
+  p {
+    font-size: 16px;
+    color: #803e38;
+    line-height: 25px;
+    width: 388px;
+    position: relative;
+    top: 70px;
+    left: 40px;
+  }
+  button {
+    width: 120px;
+    height: 41px;
+    background-color: #483224;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    top: 80px;
+    left: 40px;
+  }
+}
+
+//SALT
+
+.salt {
+  margin-top: 90px;
+  width: 100%;
+  height: 330px;
+  background-color: #d1c1a5;
+  display: flex;
+  justify-content: center;
+  .salt-logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 55px;
+    img {
+    }
+    span {
+      font-size: 25px;
+      font-family: "Cookie", cursive;
+      color: #803e38;
+      margin-left: 20px;
+    }
+  }
+  .salt-header {
+    h3 {
+      font-size: 50px;
+      text-align: left;
+      font-family: "Prata", serif;
+      font-weight: 300;
+      color: white;
+      position: relative;
+      top: 30px;
+    }
+    p {
+      width: 552px;
+      font-size: 16px;
+      color: white;
+      line-height: 25px;
+    }
+  }
+  .salt-img {
+    background-image: url(../../assets/3093620.png);
+    background-position: left;
+    width: 552px;
+    height: 330px;
+    border-radius: 0 90px 0 90px;
+    position: relative;
+    left: 35px;
+  }
+}
+
+//Cezzane header
+
+.cezanne {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    font-size: 30px;
+    color: #803e38;
+    font-family: "Prata", serif;
+    font-weight: 300;
+  }
+  p {
+    font-size: 16px;
+    color: #483224;
+    position: relative;
+    bottom: 20px;
+  }
+
+  hr {
+    border: 1px solid #483224;
+    width: 110px;
+    margin-top: 20px;
+  }
+}
+
+//Cezane Content
+
+.cezanne-product {
+  margin: 80px auto;
+  background-color: #803e38;
+  width: 1100px;
+  height: 319px;
+  display: flex;
+  border-radius: 0 90px 0 90px;
+  .cezanne-header {
+    .cezanne-logo {
+      display: flex;
+      align-items: center;
+      position: relative;
+      left: 40px;
+      top: 50px;
+      span {
+        font-size: 25px;
+        font-family: "Cookie", cursive;
+        color: #d1c1a5;
+        margin-left: 15px;
+      }
+    }
+    h3 {
+      font-size: 50px;
+      font-family: "Prata", serif;
+      font-weight: 300;
+      color: white;
+      position: relative;
+      top: 20px;
+      left: 40px;
+    }
+    p {
+      font-size: 16px;
+      color: white;
+      line-height: 25px;
+      position: relative;
+      bottom: 10px;
+      left: 40px;
+    }
+  }
+  .products {
+    border-radius: 0 90px 0 90px;
+    width: 600px;
+    position: relative;
+    left: 40px;
+  }
+}

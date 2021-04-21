@@ -1,6 +1,5 @@
 .content-wrap {
   background-image: url(../../../assets/920.png);
-  box-shadow: 0px 3px 6px #00000029;
   height: 800px;
   background-position: center;
   display: flex;
@@ -34,46 +33,87 @@
     font-family: "Barlow", sans-serif;
     font-weight: 300;
   }
+
+  .headings {
+    width: 600px;
+    padding-left: 400px;
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      align-self: flex-start;
+
+      position: relative;
+      top: 100px;
+    }
+    p {
+      margin-bottom: 25px;
+    }
+  }
+
+  //Icons
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 175px;
+    width: 420px;
+
+    .facebook {
+      width: 12px;
+      height: 22px;
+    }
+    .instagram {
+      width: 12px;
+      height: 12px;
+      margin-top: 20px;
+    }
+
+    span {
+      display: inline-block;
+      border-left: 1px solid white;
+      margin: 30px 5px 10px 0;
+      height: 60px;
+    }
+  }
 }
 
-.headings {
-  width: 600px;
-  padding-left: 400px;
+//
+.header-bar {
+  position: relative;
+  bottom: 20px;
+  background-color: #d1c1a5;
   display: flex;
   flex-direction: column;
+  align-items: center;
 
-  h3 {
-    align-self: flex-start;
+  div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 
+  .sub-header {
+    font-size: 30px;
+    font-family: "Prata", serif;
+    color: white;
+  }
+  .sub-header-p {
+    font-size: 16px;
+    font-family: "Prata", serif;
+    color: #803e38;
     position: relative;
-    top: 100px;
+    bottom: 30px;
   }
-  p {
-    margin-bottom: 25px;
-  }
-}
-
-.icons {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-top: 175px;
-  width: 420px;
-
-  .facebook {
-    width: 12px;
-    height: 22px;
-  }
-  .instagram {
-    width: 12px;
-    height: 12px;
-    margin-top: 20px;
-  }
-
-  span {
-    display: inline-block;
-    border-left: 1px solid white;
-    margin: 30px 5px 10px 0;
-    height: 60px;
+  button {
+    border: 1px solid #483224;
+    width: 159px;
+    height: 41px;
+    font-size: 16px;
+    font-family: "Barlow", sans-serif;
+    position: relative;
+    bottom: 25px;
   }
 }
