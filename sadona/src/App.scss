@@ -4,3 +4,32 @@ body {
   font-family: "Barlow", sans-serif;
   font-weight: 300;
 }
+
+@media (max-width: 1440px) {
+  .salon-services {
+    padding-right: 50px;
+    .salon-icon {
+      display: none;
+    }
+    .salon-heading {
+      position: relative;
+      right: 200px;
+    }
+  }
+  .spa-services {
+    .image {
+      display: none;
+    }
+  }
+  .footer-wrap {
+    .footer-header {
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}

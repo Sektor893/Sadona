@@ -52,44 +52,41 @@ const Content = () => {
           <span>Check out More</span>
         </div>
       </div>
-      <div>
-        <div className="spa-services-wrapp">
-          <div className="spa-services">
-            <div className="spa-heading">
-              <div className="candle-icon">
-                <img src={candle} alt="candle" />
-                <span>Services</span>
-              </div>
-              <h3>Spa Services</h3>
-              <p>
-                Both an escape and an oasis, the luxurious spa experiences at
-                Sadona will leave you feeling soothed,energized and refreshed
-              </p>
-              <button>All Services</button>
-              <div className="arrow">
-                <img src={arrowIcon} alt="arrow" />
-                <span>Check out more</span>
-              </div>
-            </div>
-            <div className="image"></div>
+
+      <div className="spa-services">
+        <div className="spa-heading">
+          <div className="candle-icon">
+            <img src={candle} alt="candle" />
+            <span>Services</span>
+          </div>
+          <h3>Spa Services</h3>
+          <p>
+            Both an escape and an oasis, the luxurious spa experiences at Sadona
+            will leave you feeling soothed,energized and refreshed
+          </p>
+          <button>All Services</button>
+          <div className="arrow">
+            <img src={arrowIcon} alt="arrow" />
+            <span>Check out more</span>
           </div>
         </div>
+        <div className="image"></div>
+      </div>
 
-        <div className="bridal-services">
-          <div className="bridal-header">
-            <div className="bridal-logo">
-              <img src={brideLogo} alt="logo" />
-              <span>Services</span>
-            </div>
-            <div className="bridal-header-wrap">
-              <h3>Bridal Services</h3>
-              <p>
-                We offer full bridal salon & spa services as well as a little
-                retreat to prepare and enjoy that memorable “get ready time”
-                with family and friends on your most beautiful and special day!
-              </p>
-              <button>All Services</button>
-            </div>
+      <div className="bridal-services">
+        <div className="bridal-header">
+          <div className="bridal-logo">
+            <img src={brideLogo} alt="logo" />
+            <span>Services</span>
+          </div>
+          <div className="bridal-header-wrap">
+            <h3>Bridal Services</h3>
+            <p>
+              We offer full bridal salon & spa services as well as a little
+              retreat to prepare and enjoy that memorable “get ready time” with
+              family and friends on your most beautiful and special day!
+            </p>
+            <button>All Services</button>
           </div>
         </div>
       </div>
