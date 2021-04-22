@@ -434,6 +434,13 @@
         left: 304px;
       }
     }
+    a:hover {
+      color: #d1c1a5;
+      text-decoration: underline;
+      text-decoration-color: #803e38;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 10px;
+    }
     .footer-services {
       position: relative;
       left: 600px;
