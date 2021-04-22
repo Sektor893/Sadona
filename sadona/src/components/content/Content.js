@@ -74,6 +74,7 @@ const Content = () => {
             <div className="image"></div>
           </div>
         </div>
+
         <div className="bridal-services">
           <div className="bridal-header">
             <div className="bridal-logo">
@@ -92,6 +93,7 @@ const Content = () => {
           </div>
         </div>
       </div>
+
       <div className="salt">
         <div className="salt-header">
           <div className="salt-logo">
@@ -107,6 +109,7 @@ const Content = () => {
         </div>
         <div className="salt-img"></div>
       </div>
+
       <div className="cezanne">
         <hr />
         <h3>Sadona Salon + Spa was inspired around Ayurvedic principles.</h3>
@@ -116,6 +119,7 @@ const Content = () => {
         </p>
         <hr />
       </div>
+
       <div className="cezanne-product">
         <div className="cezanne-header">
           <div className="cezanne-logo">
